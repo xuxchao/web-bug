@@ -6,16 +6,16 @@ export default defineConfig({
   description: "记录一些乱七八糟的 WEB BUG。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   { text: 'Examples', link: '/markdown-examples' }
+    // ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'BUG',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Backdrop Filter', link: '/backdrop-filter' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
