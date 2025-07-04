@@ -16,13 +16,13 @@ export default defineConfig({
         text: 'BUG',
         items: [
           { text: 'Backdrop Filter', link: '/backdrop-filter' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Css Level', link: '/css-level' }
         ]
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    // ]
   }
 })

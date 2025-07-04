@@ -14,5 +14,4 @@
 
 <script setup>
 import BackdropFilter from './components/backdrop-filter.vue'
-import { onMounted } from 'vue'
 </script>
