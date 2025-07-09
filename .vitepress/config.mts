@@ -16,7 +16,8 @@ export default defineConfig({
         text: 'BUG',
         items: [
           { text: 'Backdrop Filter', link: '/backdrop-filter' },
-          { text: 'Css Level', link: '/css-level' }
+          { text: 'Css Level', link: '/css-level' },
+          { text: 'Style 兼容', link: '/style-compat' }
         ]
       }
     ],
