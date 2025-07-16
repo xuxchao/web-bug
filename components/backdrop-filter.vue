@@ -1,16 +1,16 @@
 <template>
     <div class="parent-container">
-        <!-- #region snippet -->
-        <div>
+        <!-- <div>
             <h2>正常使用</h2>
             <div class="container">
                 <div class="backdrop-filter" :style="{ backdropFilter: `blur(${backdropFilter1}px)` }">
                 </div>
             </div>
-        </div>
+        </div> -->
+        <!-- #region snippet -->
 
         <div>
-            <h2>不正常使用</h2>
+            <h2>多层不正常使用</h2>
             <div class="container">
                 <div class="backdrop-filter"  :style="{ backdropFilter: `blur(${backdropFilter1}px)` }">
                     <div class="backdrop-filter" :style="{ backdropFilter: `blur(${backdropFilter2}px)` }">
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div>
-            <h2>多层使用方式</h2>
+            <h2>多层正常使用方式</h2>
             <div class="container">
                 <div class="backdrop-filter absolute"  :style="{ backdropFilter: `blur(${backdropFilter1}px)` }">
                 </div>
@@ -31,8 +31,8 @@
     </div>
     <div>
         <!-- 原生滑块功能 -->
-        <input type="range" min="0" max="100" v-model="backdropFilter1" />
-        <input type="range" min="0" max="100" v-model="backdropFilter2" />
+        <p>外层 blur 控制<input type="range" min="0" max="100" v-model="backdropFilter1" /></p>
+        <p>内层 blur 控制<input type="range" min="0" max="100" v-model="backdropFilter2" /> 【这里可以看到多层不正常使用没有效果】</p>
     </div>
 </template>
 
