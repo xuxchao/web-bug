@@ -15,9 +15,14 @@ export default defineConfig({
       {
         text: 'BUG',
         items: [
-          { text: 'Backdrop Filter', link: '/backdrop-filter' },
           { text: 'Css Level', link: '/css-level' },
           { text: 'Style 兼容', link: '/style-compat' },
+        ]
+      },
+      {
+        text: '不明原因的 BUG',
+        items: [
+          { text: 'Backdrop Filter', link: '/backdrop-filter' },
           { text: '0.5px border', link: '/border' },
           { text: 'overflow 作用 backdrop 失效', link: '/backdrop-overflow' }
         ]
