@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: 'Css Level', link: '/css-level' },
           { text: 'Style 兼容', link: '/style-compat' },
+          { text: 'flex width 超出容器', link: '/flex-width' },
         ]
       },
       {
